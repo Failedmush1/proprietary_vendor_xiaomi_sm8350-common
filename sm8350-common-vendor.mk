@@ -665,3 +665,7 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_PACKAGES += \n    chargeonlymode
+
+PRODUCT_COPY_FILES +=     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc
+
+PRODUCT_PACKAGES +=     vendor.qti.diaghal@1.0_vendor     vendor.qti.diag.hal.service.xml     diag-router
