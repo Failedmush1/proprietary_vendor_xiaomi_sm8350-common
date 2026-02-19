@@ -343,6 +343,7 @@ PRODUCT_PACKAGES += \
     libmeters \
     libminkdescriptor \
     libminksocket \
+    libmisight \
     libmlipay \
     libmlipay@1.1 \
     libmodemapi \
