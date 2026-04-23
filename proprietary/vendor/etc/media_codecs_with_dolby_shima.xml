@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Included>
     <Decoders>
-        <MediaCodec name="c2.dolby.decoder.hevc" type="video/dolby-vision" rank="150">
+        <MediaCodec name="c2.dolby.decoder.hevc" type="video/dolby-vision" rank="256">
             <Attribute name="secure-access" />
             <Limit name="size" min="96x96" max="4096x2176" />
             <Limit name="alignment" value="2x2" />
@@ -15,10 +15,10 @@
 
             <Limit name="concurrent-instances" max="16" />
         </MediaCodec>
-        <MediaCodec name="c2.dolby.decoder.hevc" type="video/hevc">
+        <MediaCodec name="c2.dolby.decoder.hevc" type="video/hevc" rank="256">
             <Attribute name="secure-access" />
         </MediaCodec>
-        <MediaCodec name="c2.dolby.decoder.hevc.secure" type="video/dolby-vision">
+        <MediaCodec name="c2.dolby.decoder.hevc.secure" type="video/dolby-vision" rank="1">
             <Feature name="adaptive-playback" />
             <Feature name="secure-playback" />
             <Feature name="low-latency" />

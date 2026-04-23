@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Included>
     <Decoders>
-        <MediaCodec name="c2.dolby.decoder.hevc" type="video/dolby-vision" rank="150">
+        <MediaCodec name="c2.dolby.decoder.hevc" type="video/dolby-vision" rank="256">
             <Feature name="tunneled-playback" required="false" />
             <Feature name="adaptive-playback" value="1" />
             <Feature name="secure-playback" required="false" />
         </MediaCodec>
-        <MediaCodec name="c2.dolby.decoder.hevc.secure" type="video/dolby-vision">
+        <MediaCodec name="c2.dolby.decoder.hevc.secure" type="video/dolby-vision" rank="1">
             <Feature name="adaptive-playback" />
             <Feature name="secure-playback" />
             <Feature name="low-latency" />
