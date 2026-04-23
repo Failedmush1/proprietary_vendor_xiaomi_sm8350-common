@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Included>
+    <Decoders>
+        <MediaCodec name="c2.dolby.decoder.hevc" type="video/dolby-vision" rank="150">
+            <Attribute name="secure-access" />
+            <Limit name="size" min="96x96" max="4096x2176" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="profile" value="32,128,256" />
+            <Limit name="level" value="1,2,4,8,16,32,64,128,256,512,1024,2048" />
+
+            <Feature name="adaptive-playback" />
+            <Feature name="can-swap-width-height" value="1" />
+            <Feature name="tunneled-playback" required="false" />
+
+            <Limit name="concurrent-instances" max="16" />
+        </MediaCodec>
+        <MediaCodec name="c2.dolby.decoder.hevc" type="video/hevc">
+            <Attribute name="secure-access" />
+        </MediaCodec>
+        <MediaCodec name="c2.dolby.decoder.hevc.secure" type="video/dolby-vision">
+            <Feature name="adaptive-playback" />
+            <Feature name="secure-playback" />
+            <Feature name="low-latency" />
+        </MediaCodec>
+        <MediaCodec name="c2.dolby.decoder.avc" type="video/dolby-vision">
+            <Type name="video/dolby-vision">
+                <Limit name="profile" range="1,4,5,7,8,9" />
+                <Limit name="level" range="1,2,3,4,5,6,7,8,9,10,11,12,13" />
+            </Type>
+            <Limit name="size" min="96x96" max="4096x2176" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="block-count" range="36-34816" />
+            <Limit name="blocks-per-second" range="36-1958400" />
+            <Limit name="bitrate" range="1-100000000" />
+            <Limit name="frame-rate" range="1-480" />
+            <Limit name="concurrent-instances" max="16" />
+            <Feature name="adaptive-playback" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-3840x2160" value="60" />
+            <Limit name="performance-point-1920x1080" value="240" />
+            <Limit name="performance-point-1280x720" value="480" />
+        </MediaCodec>
+        <MediaCodec name="c2.dolby.decoder.avc.secure" type="video/dolby-vision">
+            <Type name="video/dolby-vision">
+                <Limit name="profile" range="1,4,5,7,8,9" />
+                <Limit name="level" range="1,2,3,4,5,6,7,8,9,10,11,12,13" />
+            </Type>
+            <Limit name="size" min="96x96" max="4096x2176" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="block-count" range="36-34816" />
+            <Limit name="blocks-per-second" min="36" max="1958400" />
+            <Limit name="bitrate" range="1-40000000" />
+            <Limit name="frame-rate" range="1-60" />
+            <Feature name="adaptive-playback" />
+            <Feature name="secure-playback" required="true" />
+            <Feature name="low-latency" />
+            <Limit name="concurrent-instances" max="1" />
+            <Limit name="performance-point-4096x2304" value="30" />
+            <Limit name="performance-point-3840x2160" value="60" />
+        </MediaCodec>
+    </Decoders>
+</Included>
