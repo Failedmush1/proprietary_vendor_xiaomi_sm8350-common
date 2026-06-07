@@ -61,5 +61,11 @@
             <Limit name="performance-point-4096x2304" value="30" />
             <Limit name="performance-point-3840x2160" value="60" />
         </MediaCodec>
+        <MediaCodec name="c2.dolby.ac4.decoder" type="audio/ac4">
+            <Alias name="OMX.dolby.ac4.decoder" />
+            <Limit name="channel-count" max="16" />
+            <Limit name="sample-rate" ranges="48000" />
+            <Limit name="bitrate" range="16000-2688000" />
+        </MediaCodec>
     </Decoders>
 </Included>
