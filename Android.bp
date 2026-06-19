@@ -12525,6 +12525,8 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdmmsrc_system.so",
             ],
             shared_libs: [
+                "libaudiobase",
+                "libgui_shim",
                 "libbinder",
                 "libmmosal",
                 "liblog",
