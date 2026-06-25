@@ -611,10 +611,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     CACertService \
-    CneApp \
-    IWlanService \
     SoterService \
-    TimeService \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     vendor.xiaomi.hardware.misys-V1.0-java \
