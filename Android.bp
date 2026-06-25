@@ -16,31 +16,27 @@ android_app_import {
 	soc_specific: true,
 }
 
-/*
 android_app_import {
 	name: "CneApp",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/priv-app/CneApp/CneApp.apk",
+	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
 	soc_specific: true,
 }
 
 android_app_import {
 	name: "IWlanService",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/priv-app/IWlanService/IWlanService.apk",
+	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
 	soc_specific: true,
 }
-*/
 
 android_app_import {
 	name: "SoterService",
@@ -54,19 +50,16 @@ android_app_import {
 	soc_specific: true,
 }
 
-/*
 android_app_import {
 	name: "TimeService",
 	owner: "xiaomi",
-	apk: "proprietary/vendor/priv-app/TimeService/TimeService.apk",
+	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
 	soc_specific: true,
 }
-*/
 
 android_app_import {
 	name: "HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND",
