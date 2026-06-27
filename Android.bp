@@ -11,6 +11,7 @@ soong_namespace {
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/dataservices",
+        "vendor/qcom/common/vendor/dsprpcd",
     ],
 }
 
@@ -79,6 +80,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "egl",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -127,6 +129,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "egl",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -173,6 +176,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "egl",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -223,6 +227,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "egl",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -267,6 +272,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "egl",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -311,6 +317,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "egl",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -383,6 +390,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -426,6 +434,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -489,6 +498,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -530,6 +540,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -569,6 +580,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -612,9 +624,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
+/*
 cc_prebuilt_library_shared {
     name: "libcdsprpc",
     owner: "xiaomi",
@@ -662,7 +676,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libconfigdb",
@@ -705,6 +721,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -748,6 +765,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -785,8 +803,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libdiag",
     owner: "xiaomi",
@@ -824,7 +844,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libdsi_netctrl",
@@ -885,6 +907,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -930,8 +953,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libfastcvdsp_stub",
     owner: "xiaomi",
@@ -969,8 +994,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libfastcvopt",
     owner: "xiaomi",
@@ -1014,7 +1042,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 /*
 cc_prebuilt_library_shared {
@@ -1060,6 +1090,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -1096,6 +1127,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 /*
@@ -1134,6 +1166,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -1171,6 +1204,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -1213,6 +1247,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1255,6 +1290,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1302,8 +1338,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libperfconfig",
     owner: "xiaomi",
@@ -1347,8 +1385,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libperfgluelayer",
     owner: "xiaomi",
@@ -1390,8 +1431,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libperfioctl",
     owner: "xiaomi",
@@ -1433,7 +1477,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libqcci_legacy",
@@ -1480,6 +1526,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1519,8 +1566,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libqconfigclient",
     owner: "xiaomi",
@@ -1566,7 +1615,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libqdi",
@@ -1619,6 +1670,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1668,6 +1720,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1717,6 +1770,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1760,6 +1814,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1811,6 +1866,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1858,6 +1914,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1897,6 +1954,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1940,6 +1998,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -1979,6 +2038,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2028,6 +2088,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2065,8 +2126,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libqti-perfd-client",
     owner: "xiaomi",
@@ -2110,8 +2173,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqti-perfd",
     owner: "xiaomi",
@@ -2181,8 +2247,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqti-util",
     owner: "xiaomi",
@@ -2224,8 +2293,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqti-utils",
     owner: "xiaomi",
@@ -2259,7 +2331,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libscveCommon",
@@ -2302,6 +2376,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2339,6 +2414,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2380,6 +2456,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2419,6 +2496,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2468,6 +2546,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2511,6 +2590,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2550,6 +2630,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2609,6 +2690,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2650,6 +2732,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2691,6 +2774,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2746,6 +2830,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -2787,8 +2872,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.dsp@1.0",
     owner: "xiaomi",
@@ -2830,8 +2917,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qconfig@1.0",
     owner: "xiaomi",
@@ -2873,8 +2963,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.1",
     owner: "xiaomi",
@@ -2916,8 +3009,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.2",
     owner: "xiaomi",
@@ -2961,8 +3057,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.3",
     owner: "xiaomi",
@@ -3008,8 +3107,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@2.0",
     owner: "xiaomi",
@@ -3051,7 +3153,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.memory.pasrmanager@1.0",
@@ -3094,6 +3198,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3139,6 +3244,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "both",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3173,6 +3279,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3209,6 +3316,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3237,6 +3345,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3269,6 +3378,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3303,6 +3413,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3329,6 +3440,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3355,6 +3467,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3381,6 +3494,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3407,6 +3521,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3434,6 +3549,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3459,6 +3575,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3487,6 +3604,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3513,6 +3631,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3541,6 +3660,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3569,6 +3689,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3593,8 +3714,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libqc2vppfilter",
     owner: "xiaomi",
@@ -3632,8 +3755,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcodec2_base",
     owner: "xiaomi",
@@ -3660,8 +3786,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcodec2_basecodec",
     owner: "xiaomi",
@@ -3691,8 +3820,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcodec2_core",
     owner: "xiaomi",
@@ -3724,8 +3856,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcodec2_hooks",
     owner: "xiaomi",
@@ -3753,8 +3888,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcodec2_platform",
     owner: "xiaomi",
@@ -3783,8 +3921,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcodec2_utils",
     owner: "xiaomi",
@@ -3821,8 +3962,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcodec2_v4l2codec",
     owner: "xiaomi",
@@ -3853,7 +3997,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libwfdcodecv4l2_proprietary",
@@ -3884,6 +4030,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3915,6 +4062,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3946,6 +4094,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -3976,6 +4125,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4004,6 +4154,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4035,6 +4186,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4062,6 +4214,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4091,6 +4244,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4133,6 +4287,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4164,6 +4319,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4194,6 +4350,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4225,6 +4382,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4262,6 +4420,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4302,6 +4461,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4332,6 +4492,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4359,6 +4520,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4390,6 +4552,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4421,6 +4584,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4452,6 +4616,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4479,6 +4644,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4506,6 +4672,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "soundfx",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4533,6 +4700,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "soundfx",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4562,6 +4730,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4592,6 +4761,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4629,6 +4799,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4658,6 +4829,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4686,8 +4858,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.0",
     owner: "xiaomi",
@@ -4714,8 +4888,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.1",
     owner: "xiaomi",
@@ -4743,8 +4920,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.imscmservice@2.2",
     owner: "xiaomi",
@@ -4773,8 +4953,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.0",
     owner: "xiaomi",
@@ -4801,8 +4984,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.1",
     owner: "xiaomi",
@@ -4830,8 +5016,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.2",
     owner: "xiaomi",
@@ -4860,8 +5049,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.uceservice@2.3",
     owner: "xiaomi",
@@ -4891,7 +5083,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "deviceInfoServiceModuleNr",
@@ -4924,6 +5118,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -4960,8 +5155,10 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "android.hardware.gatekeeper@1.0-impl-qti",
     owner: "xiaomi",
@@ -4992,7 +5189,9 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.esepowermanager@1.1-impl",
@@ -5024,6 +5223,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5071,6 +5271,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 /*
@@ -5104,6 +5305,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -5138,6 +5340,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5170,6 +5373,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5202,6 +5406,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5235,8 +5440,10 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0-impl",
     owner: "xiaomi",
@@ -5271,7 +5478,9 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0-impl",
@@ -5306,6 +5515,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5353,6 +5563,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "hw",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5383,6 +5594,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5425,6 +5637,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5458,6 +5671,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5485,6 +5699,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5533,6 +5748,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5576,6 +5792,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5609,6 +5826,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5636,6 +5854,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5665,6 +5884,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5696,6 +5916,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -5728,8 +5949,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libGPQTEEC_vendor",
     owner: "xiaomi",
@@ -5759,8 +5982,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libGPTEE_vendor",
     owner: "xiaomi",
@@ -5786,8 +6012,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libGPreqcancel",
     owner: "xiaomi",
@@ -5816,8 +6045,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libGPreqcancel_svc",
     owner: "xiaomi",
@@ -5843,8 +6075,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libQSEEComAPI",
     owner: "xiaomi",
@@ -5871,8 +6106,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libQTEEConnector_vendor",
     owner: "xiaomi",
@@ -5900,7 +6138,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libQnnHtpAltPrepStub",
@@ -5925,8 +6165,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libadsp_default_listener",
     owner: "xiaomi",
@@ -5951,8 +6193,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libadsprpc",
     owner: "xiaomi",
@@ -5982,8 +6227,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libaoa",
     owner: "xiaomi",
@@ -6006,7 +6254,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libbtnv",
@@ -6030,6 +6280,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -6059,8 +6310,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libcdfw",
     owner: "xiaomi",
@@ -6085,8 +6338,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libcdfw_remote_api",
     owner: "xiaomi",
@@ -6111,8 +6367,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libcdsp_default_listener",
     owner: "xiaomi",
@@ -6137,7 +6396,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libcne",
@@ -6193,8 +6454,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libcneapiclient",
     owner: "xiaomi",
@@ -6228,7 +6491,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libcneoplookup",
@@ -6254,8 +6519,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libcpion",
     owner: "xiaomi",
@@ -6280,7 +6547,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libcvpcpuRev_skel",
@@ -6308,8 +6577,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libdataitems",
     owner: "xiaomi",
@@ -6336,8 +6607,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdisp-aba",
     owner: "xiaomi",
@@ -6362,8 +6636,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdisplayqos",
     owner: "xiaomi",
@@ -6388,8 +6665,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdisplayskuutils",
     owner: "xiaomi",
@@ -6416,7 +6696,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libdpmqmihal",
@@ -6448,8 +6730,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libdpps",
     owner: "xiaomi",
@@ -6482,8 +6766,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdrmfs",
     owner: "xiaomi",
@@ -6512,8 +6799,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdrmtime",
     owner: "xiaomi",
@@ -6542,8 +6832,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libhdr_tm",
     owner: "xiaomi",
@@ -6571,7 +6864,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libhydra_common",
@@ -6598,8 +6893,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libizat_client_api",
     owner: "xiaomi",
@@ -6624,8 +6921,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libizat_core",
     owner: "xiaomi",
@@ -6655,7 +6955,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libjnihelper",
@@ -6684,8 +6986,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libkeymasterdeviceutils",
     owner: "xiaomi",
@@ -6714,8 +7018,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libkeymasterprovision",
     owner: "xiaomi",
@@ -6743,8 +7050,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libkeymasterutils",
     owner: "xiaomi",
@@ -6771,8 +7081,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "liblbs_core",
     owner: "xiaomi",
@@ -6807,8 +7120,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "liblearningmodule",
     owner: "xiaomi",
@@ -6838,8 +7154,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libloc_api_v02",
     owner: "xiaomi",
@@ -6869,8 +7188,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libloc_socket",
     owner: "xiaomi",
@@ -6897,8 +7219,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "liblocationservice",
     owner: "xiaomi",
@@ -6930,8 +7255,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "liblocationservice_glue",
     owner: "xiaomi",
@@ -6964,8 +7292,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "liblowi_client",
     owner: "xiaomi",
@@ -6991,8 +7322,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "liblowi_wifihal",
     owner: "xiaomi",
@@ -7020,7 +7354,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "liblqe",
@@ -7052,8 +7388,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libmdsprpc",
     owner: "xiaomi",
@@ -7083,8 +7421,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libmeters",
     owner: "xiaomi",
@@ -7110,8 +7451,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libminkdescriptor",
     owner: "xiaomi",
@@ -7137,8 +7481,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libminksocket",
     owner: "xiaomi",
@@ -7164,7 +7511,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libmisight",
@@ -7193,6 +7542,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7225,6 +7575,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7258,6 +7609,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7292,6 +7644,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7324,6 +7677,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7356,6 +7710,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7388,6 +7743,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7419,8 +7775,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "liboemcrypto",
     owner: "xiaomi",
@@ -7452,8 +7810,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libops",
     owner: "xiaomi",
@@ -7483,7 +7844,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libpdmapper",
@@ -7514,6 +7877,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7544,6 +7908,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7573,8 +7938,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcbor",
     owner: "xiaomi",
@@ -7600,8 +7967,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqcc_file_agent",
     owner: "xiaomi",
@@ -7631,7 +8001,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libqcrilNr",
@@ -7743,6 +8115,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7771,6 +8144,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7798,6 +8172,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7826,6 +8201,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7851,6 +8227,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -7877,8 +8254,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libqdcm-mode-parser",
     owner: "xiaomi",
@@ -7908,8 +8287,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqisl",
     owner: "xiaomi",
@@ -7935,8 +8317,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqrtr",
     owner: "xiaomi",
@@ -7959,8 +8344,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqrtrclient",
     owner: "xiaomi",
@@ -7989,8 +8377,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libqseed3",
     owner: "xiaomi",
@@ -8013,7 +8404,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libqsocket",
@@ -8037,8 +8430,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libqtikeymaster4",
     owner: "xiaomi",
@@ -8072,7 +8467,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "librcc",
@@ -8100,8 +8497,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "librcmask",
     owner: "xiaomi",
@@ -8125,7 +8524,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libril-db",
@@ -8155,6 +8556,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -8180,6 +8582,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -8205,8 +8608,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "librpmb",
     owner: "xiaomi",
@@ -8232,8 +8637,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsdm-color",
     owner: "xiaomi",
@@ -8263,8 +8671,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsdm-colormgr-algo",
     owner: "xiaomi",
@@ -8289,8 +8700,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsdm-diag",
     owner: "xiaomi",
@@ -8317,8 +8731,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsdm-disp-vndapis",
     owner: "xiaomi",
@@ -8347,8 +8764,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsdmextension",
     owner: "xiaomi",
@@ -8377,8 +8797,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsdsprpc",
     owner: "xiaomi",
@@ -8408,7 +8831,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libsn100u_fw",
@@ -8426,8 +8851,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libsnapdragoncolor-manager",
     owner: "xiaomi",
@@ -8458,8 +8885,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsnapdragoncolor-qdcm",
     owner: "xiaomi",
@@ -8489,7 +8919,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libsoc_helper",
@@ -8514,8 +8946,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libspcom",
     owner: "xiaomi",
@@ -8543,7 +8977,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libspl",
@@ -8570,8 +9006,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libssd",
     owner: "xiaomi",
@@ -8599,8 +9037,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libsynergy_loc_api",
     owner: "xiaomi",
@@ -8630,7 +9071,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libsystem_health_mon",
@@ -8657,8 +9100,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libtime_genoff",
     owner: "xiaomi",
@@ -8683,8 +9128,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libtinyxml2_1",
     owner: "xiaomi",
@@ -8707,8 +9155,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libtrustedapploader",
     owner: "xiaomi",
@@ -8735,7 +9186,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libwms",
@@ -8771,6 +9224,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -8812,6 +9266,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -8849,8 +9304,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libxtadapter",
     owner: "xiaomi",
@@ -8877,7 +9334,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "ls_nq_client",
@@ -8908,6 +9367,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -8940,6 +9400,7 @@ cc_prebuilt_library_shared {
     relative_install_path: "mediadrm",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -8964,6 +9425,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -8988,6 +9450,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9014,6 +9477,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9041,6 +9505,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9071,6 +9536,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9112,6 +9578,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9138,6 +9605,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9174,8 +9642,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.0",
     owner: "xiaomi",
@@ -9202,8 +9672,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.1",
     owner: "xiaomi",
@@ -9231,8 +9704,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.2",
     owner: "xiaomi",
@@ -9261,8 +9737,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.3",
     owner: "xiaomi",
@@ -9292,8 +9771,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.4",
     owner: "xiaomi",
@@ -9324,8 +9806,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.display.color@1.5",
     owner: "xiaomi",
@@ -9357,8 +9842,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.display.postproc@1.0",
     owner: "xiaomi",
@@ -9385,8 +9873,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.0",
     owner: "xiaomi",
@@ -9420,8 +9911,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.1",
     owner: "xiaomi",
@@ -9458,8 +9952,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.2",
     owner: "xiaomi",
@@ -9498,8 +9995,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.factory@2.3",
     owner: "xiaomi",
@@ -9540,8 +10040,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.mwqem@1.0",
     owner: "xiaomi",
@@ -9568,8 +10071,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.data.slm@1.0",
     owner: "xiaomi",
@@ -9596,7 +10102,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal@1.0_vendor",
@@ -9625,6 +10133,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9653,6 +10162,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -9682,8 +10192,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.0",
     owner: "xiaomi",
@@ -9711,8 +10223,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.1",
     owner: "xiaomi",
@@ -9741,8 +10256,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@1.2",
     owner: "xiaomi",
@@ -9772,8 +10290,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.0",
     owner: "xiaomi",
@@ -9804,8 +10325,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@2.1",
     owner: "xiaomi",
@@ -9837,8 +10361,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@3.0",
     owner: "xiaomi",
@@ -9871,7 +10398,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0-service",
@@ -9912,8 +10441,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.gnss@4.0",
     owner: "xiaomi",
@@ -9947,7 +10478,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 /*
 cc_prebuilt_library_shared {
@@ -9976,6 +10509,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -10005,6 +10539,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -10034,6 +10569,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -10062,6 +10598,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -10090,8 +10627,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.api@1.0",
     owner: "xiaomi",
@@ -10119,8 +10658,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
     owner: "xiaomi",
@@ -10147,8 +10689,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.cne.internal.server@1.0",
     owner: "xiaomi",
@@ -10176,8 +10721,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.0",
     owner: "xiaomi",
@@ -10204,8 +10752,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.connection@1.1",
     owner: "xiaomi",
@@ -10233,8 +10784,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.dynamicdds@1.0",
     owner: "xiaomi",
@@ -10261,8 +10815,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.iwlan@1.0",
     owner: "xiaomi",
@@ -10294,8 +10851,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.latency@1.0",
     owner: "xiaomi",
@@ -10322,8 +10882,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.lce@1.0",
     owner: "xiaomi",
@@ -10350,8 +10913,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.data.qmi@1.0",
     owner: "xiaomi",
@@ -10378,7 +10944,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 /*
 cc_prebuilt_library_shared {
@@ -10407,9 +10975,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.mwqemadapter@1.0",
     owner: "xiaomi",
@@ -10436,8 +11006,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qccsyshal@1.0",
     owner: "xiaomi",
@@ -10464,8 +11037,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.qteeconnector@1.0",
     owner: "xiaomi",
@@ -10492,8 +11068,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.am@1.0",
     owner: "xiaomi",
@@ -10520,8 +11099,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.0",
     owner: "xiaomi",
@@ -10548,8 +11130,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.1",
     owner: "xiaomi",
@@ -10577,8 +11162,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.2",
     owner: "xiaomi",
@@ -10607,8 +11195,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.3",
     owner: "xiaomi",
@@ -10638,8 +11229,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.4",
     owner: "xiaomi",
@@ -10670,8 +11264,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.5",
     owner: "xiaomi",
@@ -10703,8 +11300,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.6",
     owner: "xiaomi",
@@ -10737,8 +11337,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.ims@1.7",
     owner: "xiaomi",
@@ -10772,8 +11375,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.internal.deviceinfo@1.0",
     owner: "xiaomi",
@@ -10800,8 +11406,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.0",
     owner: "xiaomi",
@@ -10828,8 +11437,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.lpa@1.1",
     owner: "xiaomi",
@@ -10857,8 +11469,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qcrilhook@1.0",
     owner: "xiaomi",
@@ -10885,8 +11500,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@1.0",
     owner: "xiaomi",
@@ -10913,8 +11531,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.0",
     owner: "xiaomi",
@@ -10943,8 +11564,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.1",
     owner: "xiaomi",
@@ -10974,8 +11598,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.2",
     owner: "xiaomi",
@@ -11006,8 +11633,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.3",
     owner: "xiaomi",
@@ -11039,8 +11669,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.4",
     owner: "xiaomi",
@@ -11074,8 +11707,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.5",
     owner: "xiaomi",
@@ -11110,8 +11746,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.qtiradio@2.6",
     owner: "xiaomi",
@@ -11146,8 +11785,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.0",
     owner: "xiaomi",
@@ -11174,8 +11816,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.1",
     owner: "xiaomi",
@@ -11203,8 +11848,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim@1.2",
     owner: "xiaomi",
@@ -11233,8 +11881,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.0",
     owner: "xiaomi",
@@ -11261,8 +11912,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.1",
     owner: "xiaomi",
@@ -11290,8 +11944,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_client@1.2",
     owner: "xiaomi",
@@ -11320,8 +11977,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.uim_remote_server@1.0",
     owner: "xiaomi",
@@ -11348,8 +12008,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.slmadapter@1.0",
     owner: "xiaomi",
@@ -11376,7 +12039,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.soter@1.0",
@@ -11404,8 +12069,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callcapability@1.0",
     owner: "xiaomi",
@@ -11432,8 +12099,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.callinfo@1.0",
     owner: "xiaomi",
@@ -11460,8 +12130,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.factory@1.0",
     owner: "xiaomi",
@@ -11490,8 +12163,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.factory@1.1",
     owner: "xiaomi",
@@ -11522,8 +12198,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.0",
     owner: "xiaomi",
@@ -11550,8 +12229,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@1.1",
     owner: "xiaomi",
@@ -11579,8 +12261,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.0",
     owner: "xiaomi",
@@ -11607,8 +12292,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ims.rcsconfig@2.1",
     owner: "xiaomi",
@@ -11636,7 +12324,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0-service-Impl",
@@ -11669,6 +12359,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -11698,8 +12389,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.latency@2.0",
     owner: "xiaomi",
@@ -11726,8 +12419,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.latency@2.1",
     owner: "xiaomi",
@@ -11755,7 +12451,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.citsensorservice@1.0",
@@ -11783,6 +12481,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -11812,8 +12511,10 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.dpm.api@1.0",
     owner: "xiaomi",
@@ -11840,8 +12541,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "lib-imsvideocodec",
     owner: "xiaomi",
@@ -11874,8 +12578,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "lib-imsvt",
     owner: "xiaomi",
@@ -11915,8 +12622,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "lib-imsvtextutils",
     owner: "xiaomi",
@@ -11946,8 +12656,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "lib-imsvtutils",
     owner: "xiaomi",
@@ -11974,8 +12687,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdiag_system",
     owner: "xiaomi",
@@ -12006,8 +12722,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdpmctmgr",
     owner: "xiaomi",
@@ -12036,8 +12755,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdpmfdmgr",
     owner: "xiaomi",
@@ -12066,8 +12788,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdpmframework",
     owner: "xiaomi",
@@ -12099,8 +12824,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libdpmtcm",
     owner: "xiaomi",
@@ -12129,8 +12857,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libimscamera_jni",
     owner: "xiaomi",
@@ -12157,8 +12888,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libimsmedia_jni",
     owner: "xiaomi",
@@ -12188,8 +12922,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libmmosal",
     owner: "xiaomi",
@@ -12216,8 +12953,11 @@ cc_prebuilt_library_shared {
     prefer: true,
     system_ext_specific: true,
     installable: false,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libmmparser_lite",
     owner: "xiaomi",
@@ -12244,8 +12984,12 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    installable: false,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libmmrtpdecoder",
     owner: "xiaomi",
@@ -12272,8 +13016,12 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    installable: false,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libmmrtpencoder",
     owner: "xiaomi",
@@ -12300,8 +13048,12 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    installable: false,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdavenhancements",
     owner: "xiaomi",
@@ -12330,8 +13082,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdclient",
     owner: "xiaomi",
@@ -12366,8 +13121,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdcommonutils",
     owner: "xiaomi",
@@ -12411,8 +13169,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdconfigutils",
     owner: "xiaomi",
@@ -12442,8 +13203,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfddisplayconfig",
     owner: "xiaomi",
@@ -12474,8 +13238,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdmminterface",
     owner: "xiaomi",
@@ -12501,8 +13268,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdmmsink",
     owner: "xiaomi",
@@ -12548,8 +13318,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdmmsrc_system",
     owner: "xiaomi",
@@ -12594,8 +13367,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdnative",
     owner: "xiaomi",
@@ -12635,8 +13411,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdrtsp",
     owner: "xiaomi",
@@ -12665,8 +13444,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdservice",
     owner: "xiaomi",
@@ -12711,8 +13493,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfdsinksm",
     owner: "xiaomi",
@@ -12751,8 +13536,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfduibcinterface",
     owner: "xiaomi",
@@ -12781,8 +13569,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfduibcsink",
     owner: "xiaomi",
@@ -12810,8 +13601,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfduibcsinkinterface",
     owner: "xiaomi",
@@ -12841,8 +13635,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfduibcsrc",
     owner: "xiaomi",
@@ -12872,8 +13669,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libwfduibcsrcinterface",
     owner: "xiaomi",
@@ -12903,8 +13703,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.ImsRtpService-V1-ndk",
     owner: "xiaomi",
@@ -12929,8 +13732,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.diaghal@1.0",
     owner: "xiaomi",
@@ -12957,8 +13763,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession@1.0",
     owner: "xiaomi",
@@ -12985,8 +13794,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk",
     owner: "xiaomi",
@@ -13011,8 +13823,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.0",
     owner: "xiaomi",
@@ -13039,8 +13854,11 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.imsrtpservice@3.1",
     owner: "xiaomi",
@@ -13068,7 +13886,9 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
 android_app_import {
     name: "CACertService",
@@ -13163,7 +13983,9 @@ android_app_import {
     },
     system_ext_specific: true,
 }
+*/
 
+/*
 android_app_import {
     name: "QtiTelephonyService",
     owner: "xiaomi",
@@ -13174,7 +13996,9 @@ android_app_import {
     },
     system_ext_specific: true,
 }
+*/
 
+/*
 android_app_import {
     name: "WfdService",
     owner: "xiaomi",
@@ -13186,7 +14010,9 @@ android_app_import {
     privileged: true,
     system_ext_specific: true,
 }
+*/
 
+/*
 android_app_import {
     name: "dpmserviceapp",
     owner: "xiaomi",
@@ -13198,7 +14024,9 @@ android_app_import {
     privileged: true,
     system_ext_specific: true,
 }
+*/
 
+/*
 android_app_import {
     name: "ims",
     owner: "xiaomi",
@@ -13210,7 +14038,9 @@ android_app_import {
     privileged: true,
     system_ext_specific: true,
 }
+*/
 
+/*
 android_app_import {
     name: "qcrilmsgtunnel",
     owner: "xiaomi",
@@ -13222,7 +14052,9 @@ android_app_import {
     privileged: true,
     system_ext_specific: true,
 }
+*/
 
+/*
 dex_import {
     name: "WfdCommon",
     owner: "xiaomi",
@@ -13230,7 +14062,9 @@ dex_import {
         "proprietary/system/framework/WfdCommon.jar",
     ],
 }
+*/
 
+/*
 dex_import {
     name: "tcmclient",
     owner: "xiaomi",
@@ -13238,7 +14072,9 @@ dex_import {
         "proprietary/system/framework/tcmclient.jar",
     ],
 }
+*/
 
+/*
 dex_import {
     name: "audiosphere",
     owner: "xiaomi",
@@ -13247,6 +14083,7 @@ dex_import {
     ],
     system_ext_specific: true,
 }
+*/
 
 dex_import {
     name: "com.android.hotwordenrollment.common.util",
@@ -13257,6 +14094,7 @@ dex_import {
     system_ext_specific: true,
 }
 
+/*
 dex_import {
     name: "com.qti.dpmframework",
     owner: "xiaomi",
@@ -13265,7 +14103,9 @@ dex_import {
     ],
     system_ext_specific: true,
 }
+*/
 
+/*
 dex_import {
     name: "dpmapi",
     owner: "xiaomi",
@@ -13274,7 +14114,9 @@ dex_import {
     ],
     system_ext_specific: true,
 }
+*/
 
+/*
 dex_import {
     name: "qcrilhook",
     owner: "xiaomi",
@@ -13368,6 +14210,7 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -13403,6 +14246,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -13428,6 +14272,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -13453,6 +14298,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -13499,8 +14345,10 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "cnss-daemon",
     owner: "xiaomi",
@@ -13532,7 +14380,9 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "diag-router",
@@ -13565,6 +14415,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -13601,8 +14452,10 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "dspservice",
     owner: "xiaomi",
@@ -13632,7 +14485,9 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "android.hardware.bluetooth@1.0-service-qti",
@@ -13670,6 +14525,7 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -13705,8 +14561,10 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "android.hardware.gatekeeper@1.0-service-qti",
     owner: "xiaomi",
@@ -13735,8 +14593,11 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "android.hardware.keymaster@4.1-service-qti",
     owner: "xiaomi",
@@ -13770,8 +14631,11 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks@1.3-service-qti",
     owner: "xiaomi",
@@ -13813,8 +14677,11 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "qconfigservice",
     owner: "xiaomi",
@@ -13844,7 +14711,9 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "qcrilNrd",
@@ -13875,8 +14744,10 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "vendor.display.color@1.0-service",
     owner: "xiaomi",
@@ -13916,7 +14787,9 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "vendor.qti.esepowermanager@1.1-service",
@@ -13950,6 +14823,7 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
 /*
@@ -13983,6 +14857,7 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
@@ -14017,8 +14892,10 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.perf@2.2-service",
     owner: "xiaomi",
@@ -14055,8 +14932,11 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.qteeconnector@1.0-service",
     owner: "xiaomi",
@@ -14084,7 +14964,9 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.soter@1.0-service",
@@ -14113,8 +14995,10 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "vendor.qti.media.c2@1.0-service",
     owner: "xiaomi",
@@ -14150,7 +15034,9 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "vendor.qti.secure_element@1.2-service",
@@ -14190,6 +15076,7 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14225,6 +15112,7 @@ cc_prebuilt_binary {
     prefer: true,
     relative_install_path: "hw",
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14265,6 +15153,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14295,6 +15184,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 sh_binary {
@@ -14328,8 +15218,10 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "loc_launcher",
     owner: "xiaomi",
@@ -14357,8 +15249,11 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "lowi-server",
     owner: "xiaomi",
@@ -14389,7 +15284,9 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "mi_thermald",
@@ -14417,8 +15314,10 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "mlid",
     owner: "xiaomi",
@@ -14444,7 +15343,9 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "mlipayd@1.1",
@@ -14478,8 +15379,10 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "msm_irqbalance",
     owner: "xiaomi",
@@ -14505,7 +15408,9 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "netmgrd",
@@ -14552,6 +15457,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14579,6 +15485,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14611,6 +15518,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14639,6 +15547,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14673,6 +15582,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14700,6 +15610,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 /*
@@ -14727,9 +15638,11 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 */
 
+/*
 cc_prebuilt_binary {
     name: "ppd",
     owner: "xiaomi",
@@ -14756,8 +15669,11 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "qdcmss",
     owner: "xiaomi",
@@ -14786,7 +15702,9 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
 cc_prebuilt_binary {
     name: "qmipriod",
@@ -14814,6 +15732,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14839,6 +15758,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14864,6 +15784,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14893,6 +15814,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14928,6 +15850,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14957,6 +15880,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -14981,6 +15905,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -15019,6 +15944,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -15046,6 +15972,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -15074,6 +16001,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -15108,6 +16036,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -15137,6 +16066,7 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
 cc_prebuilt_binary {
@@ -15168,8 +16098,10 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
 
+/*
 cc_prebuilt_binary {
     name: "xtra-daemon",
     owner: "xiaomi",
@@ -15206,8 +16138,11 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "dpmd",
     owner: "xiaomi",
@@ -15237,8 +16172,11 @@ cc_prebuilt_binary {
     },
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
+/*
 cc_prebuilt_binary {
     name: "wfdservice",
     owner: "xiaomi",
@@ -15271,7 +16209,9 @@ cc_prebuilt_binary {
     },
     prefer: true,
     system_ext_specific: true,
+    check_elf_files: false,
 }
+*/
 
 /*
 install_symlink {
