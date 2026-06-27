@@ -6,15 +6,15 @@ soong_namespace {
     imports: [
         "device/xiaomi/sm8350-common",
         "hardware/qcom-caf/sm8350",
-        "hardware/qcom-caf/wlan",
+        "hardware/qcom/wlan/qcwcn",
         "hardware/xiaomi",
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/dataservices",
-        "vendor/qcom/opensource/display",
     ],
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "eglSubDriverAndroid",
     owner: "xiaomi",
@@ -80,7 +80,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libEGL_adreno",
     owner: "xiaomi",
@@ -126,7 +128,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libGLESv1_CM_adreno",
     owner: "xiaomi",
@@ -170,7 +174,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libGLESv2_adreno",
     owner: "xiaomi",
@@ -218,7 +224,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libq3dtools_adreno",
     owner: "xiaomi",
@@ -260,7 +268,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libq3dtools_esx",
     owner: "xiaomi",
@@ -302,7 +312,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "vulkan.adreno",
     owner: "xiaomi",
@@ -372,7 +384,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libC2D2",
     owner: "xiaomi",
@@ -413,7 +427,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libCB",
     owner: "xiaomi",
@@ -474,7 +490,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libOpenCL",
     owner: "xiaomi",
@@ -513,7 +531,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libadreno_utils",
     owner: "xiaomi",
@@ -550,7 +570,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libc2d30_bltlib",
     owner: "xiaomi",
@@ -591,6 +613,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libcdsprpc",
@@ -993,6 +1016,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libgsl",
     owner: "xiaomi",
@@ -1037,6 +1061,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libidl",
@@ -1073,6 +1098,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "libllvm-glnext",
     owner: "xiaomi",
@@ -1109,7 +1135,9 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
+/*
 cc_prebuilt_library_shared {
     name: "libllvm-qcom",
     owner: "xiaomi",
@@ -1144,6 +1172,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "libmdmdetect",
@@ -5044,6 +5073,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0-impl",
     owner: "xiaomi",
@@ -5075,6 +5105,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.1-impl",
@@ -9918,6 +9949,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.alarm@1.0",
     owner: "xiaomi",
@@ -9945,6 +9977,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_sar@1.0",
@@ -10347,6 +10380,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fm@1.0",
     owner: "xiaomi",
@@ -10374,6 +10408,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.mwqemadapter@1.0",
@@ -12180,6 +12215,7 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     prefer: true,
     system_ext_specific: true,
+    installable: false,
 }
 
 cc_prebuilt_library_shared {
@@ -13116,6 +13152,7 @@ android_app_import {
     product_specific: true,
 }
 
+/*
 android_app_import {
     name: "PowerOffAlarm",
     owner: "xiaomi",
@@ -13246,6 +13283,7 @@ dex_import {
     ],
     system_ext_specific: true,
 }
+*/
 
 prebuilt_etc_xml {
     name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
@@ -13914,6 +13952,7 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.alarm@1.0-service",
     owner: "xiaomi",
@@ -13945,6 +13984,7 @@ cc_prebuilt_binary {
     relative_install_path: "hw",
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_binary {
     name: "vendor.qti.hardware.capabilityconfigstore@1.0-service",
@@ -14662,6 +14702,7 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_binary {
     name: "power_off_alarm",
     owner: "xiaomi",
@@ -14687,6 +14728,7 @@ cc_prebuilt_binary {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_binary {
     name: "ppd",
@@ -15231,12 +15273,14 @@ cc_prebuilt_binary {
     system_ext_specific: true,
 }
 
+/*
 install_symlink {
     name: "system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so",
     system_ext_specific: true,
     installed_location: "priv-app/WfdService/lib/arm64/libwfdnative.so",
     symlink_target: "/system_ext/lib64/libwfdnative.so",
 }
+*/
 
 filegroup {
     name: "proprietary_rildb_config_sql_files",

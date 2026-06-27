@@ -71,7 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
-    vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
+#    vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/sm8350-common/proprietary/vendor/etc/init/qconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qconfig.rc \
@@ -188,31 +188,31 @@ PRODUCT_PACKAGES += \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
-    eglSubDriverAndroid \
-    libEGL_adreno \
-    libGLESv1_CM_adreno \
-    libGLESv2_adreno \
-    libq3dtools_adreno \
-    libq3dtools_esx \
-    vulkan.adreno \
-    libC2D2 \
-    libCB \
-    libOpenCL \
-    libadreno_utils \
-    libc2d30_bltlib \
-    libcdsprpc \
-    libconfigdb \
-    libcvp2_1 \
-    libcvp_common \
-    libdiag \
-    libdsi_netctrl \
-    libdsutils \
-    libfastcvdsp_stub \
+#    eglSubDriverAndroid \
+#    libEGL_adreno \
+#    libGLESv1_CM_adreno \
+#    libGLESv2_adreno \
+#    libq3dtools_adreno \
+#    libq3dtools_esx \
+#    vulkan.adreno \
+#    libC2D2 \
+#    libCB \
+#    libOpenCL \
+#    libadreno_utils \
+#    libc2d30_bltlib \
+#    libcdsprpc \
+#    libconfigdb \
+#    libcvp2_1 \
+#    libcvp_common \
+#    libdiag \
+#    libdsi_netctrl \
+#    libdsutils \
+#    libfastcvdsp_stub \
     libfastcvopt \
-    libgsl \
+#    libgsl \
     libidl \
-    libllvm-glnext \
-    libllvm-qcom \
+#    libllvm-glnext \
+#    libllvm-qcom \
     libmdmdetect \
     libmmosal_vendor \
     libnetmgr \
@@ -668,8 +668,8 @@ PRODUCT_PACKAGES += \
     dpmd \
     wfdservice
 
-PRODUCT_PACKAGES += \
-    system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so
+#PRODUCT_PACKAGES += \
+#    system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
