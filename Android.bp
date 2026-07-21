@@ -12658,6 +12658,7 @@ cc_prebuilt_library_shared {
                 "libmedia_helper",
                 "libaudioclient",
                 "libaudioclient_shim",
+                "libaudiosystem_shim",
                 "libaudiofoundation",
                 "audioclient-types-aidl-cpp",
                 "android.media.audio.common.types-V5-cpp",
