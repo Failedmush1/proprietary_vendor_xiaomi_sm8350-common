@@ -805,7 +805,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libozowidening.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozowidening.so \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib/soundfx/libozoprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libozoprocessing.so
 
->>>>>>> 9ca17f3 (sm8350-common: Import OzoAudio Engine prebuilts)
 PRODUCT_PACKAGES += \
     CACertService \
     CneApp \
