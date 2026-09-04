@@ -753,10 +753,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/sm8350-common/proprietary/system/lib64/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdolbyottcontrol.so \
-    vendor/xiaomi/sm8350-common/proprietary/system/lib64/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdovi_omx.so \
-    vendor/xiaomi/sm8350-common/proprietary/system/lib/libdolbyottcontrol.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdolbyottcontrol.so \
-    vendor/xiaomi/sm8350-common/proprietary/system/lib/libdovi_omx.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdovi_omx.so \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libav_ozodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libav_ozodecoder.so \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libav_ozoencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libav_ozoencoder.so \
     vendor/xiaomi/sm8350-common/proprietary/vendor/lib/libozoaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozoaudio.so \
