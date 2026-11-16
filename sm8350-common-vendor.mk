@@ -613,5 +613,3 @@ PRODUCT_PACKAGES += \
     dpmd \
     wfdservice64
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
