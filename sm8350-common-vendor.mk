@@ -614,3 +614,5 @@ PRODUCT_PACKAGES += \
     dpmd \
     wfdservice64
 
+
+PRODUCT_PACKAGES += \n    chargeonlymode
